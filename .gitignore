@@ -1,0 +1,40 @@
+# Secrets and Environment Variables
+.env
+*.env
+credentials.json
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# Local database & logs
+backend/chroma_db/
+chroma_db/
+backend/email_logs/
+email_logs/
+backend/sample_data/
+
+# Python Caches & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Node & Next.js Build Artifacts
+node_modules/
+frontend/node_modules/
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
