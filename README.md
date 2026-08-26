@@ -136,9 +136,3 @@ An intelligent, full-stack customer support and automated refund processing plat
 | `GET` | `/logs` | Fetch interaction and refund logs |
 | `POST` | `/policy/upload` | Upload and vector-index a new `.docx` policy file |
 | `POST` | `/policy/reindex` | Trigger policy re-indexing into ChromaDB |
-
----
-
-## License
-
-Distributed under the [MIT License](LICENSE). Copyright (c) 2026 Syed Ahmed Ali Raza.
